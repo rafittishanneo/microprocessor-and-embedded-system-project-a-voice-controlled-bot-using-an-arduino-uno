@@ -1,14 +1,10 @@
 /*Arduino Voice Control Robot 
  *Version 1.0
- *Created By DIY Builder
  *Before Uploading the sketch you must install the required libraries first. 
  *Unless you'll get compilation error message.
  *Also remove the bluetooth and servo connector before uploading the sketch.
- *You can contact me here https://www.instagram.com/diy.builder/
  */
  
-
-
 
 #include <AFMotor.h>
 #include <Servo.h>
@@ -21,7 +17,6 @@ AF_DCMotor motor3(3, MOTOR34_1KHZ);
 AF_DCMotor motor4(4, MOTOR34_1KHZ);
 
 Servo myservo;
-
 
 
 void setup() {
